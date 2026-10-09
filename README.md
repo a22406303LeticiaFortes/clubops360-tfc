@@ -17,20 +17,19 @@ O objetivo deste TFC é **estabilizar e fazer crescer a plataforma**, para que c
 
 ## Estrutura do repositório
 
-```
-docs/
-  relatorios/      Relatórios entregues em cada avaliação (PDF)
-  progresso/       Relatórios de progresso semanais
-  reunioes/        Notas das reuniões com o orientador
-  auditoria/       Exportações da auditoria de falhas (Notion)
-  benchmarking/    Análise de concorrentes
-  requisitos/      Requisitos, use cases e user stories
-  arquitetura/     Modelo de dados, arquitetura e diagramas
-  uso-ia/          Registo da utilização de IA generativa
-manual/            Instruções de instalação e utilização da solução
-src/               Código fonte (quando aplicável)
-tests/             Testes
-```
+| Pasta | Conteúdo |
+|---|---|
+| `docs/progresso/` | Relatórios de progresso semanais |
+| `docs/reunioes/` | Notas das reuniões com o orientador (data, temas, decisões, próximos passos) |
+| `docs/auditoria/` | Auditoria de falhas da plataforma (exportações do Notion) |
+| `docs/benchmarking/` | Análise de concorrentes |
+| `docs/requisitos/` | Requisitos por perfil, use cases, user stories, critérios de aceitação e matriz de rastreio |
+| `docs/arquitetura/` | Modelo de dados, diagramas de arquitetura e mockups |
+| `docs/relatorios/` | Relatórios entregues em cada avaliação (PDF) |
+| `docs/uso-ia/` | Registo da utilização de IA generativa |
+| `manual/` | Instruções de instalação e utilização da plataforma |
+| `src/` | Código fonte |
+| `tests/` | Testes automáticos e cenários de teste |
 
 ## Entregas
 
