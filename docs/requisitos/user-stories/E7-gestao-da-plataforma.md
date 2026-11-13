@@ -215,11 +215,13 @@
 
 ### E7F7U3 – Como membro, quero só ver as páginas e os botões que tenho permissão para usar, mesmo pelo link direto, para que não tente fazer ações que me são negadas.
 
-**Origem:** Auditoria – Página de Administração do clube acessível a qualquer membro através do link direto (Baixa); Jogador vê e pode preencher formulários de criação que não tem permissão para submeter (Baixa)
+**Origem:** Auditoria – Página de Administração do clube acessível a qualquer membro através do link direto (Baixa); Jogador vê e pode preencher formulários de criação que não tem permissão para submeter (Baixa); Jogador vê o mesmo menu que o Dirigente (Média); Jogador vê todas as modalidades do clube no seletor (Média)
 
 **Critérios de aceitação:**
 - Um jogador que abre a página de Administração pelo link é redirecionado ou vê "Sem permissão"
 - Os botões de criar jogos e treinos não aparecem a quem não pode usá-los
+- O menu lateral de um jogador só mostra as páginas a que o jogador tem acesso
+- O seletor de modalidade só mostra as modalidades em que o utilizador está inscrito
 
 ---
 
