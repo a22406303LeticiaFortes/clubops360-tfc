@@ -15,6 +15,7 @@
 | 05/11/2026 | Claude | Apoio aos testes da administração (faturação, Stripe, auditoria, tickets) e redação das falhas | Daniel |
 | 06/11/2026 | Claude | Pesquisa e redação da análise da concorrência (fichas, comparação, IA, SWOT) | Daniel |
 | 11/11/2026 | Claude | Redação do Resumo, Abstract e capítulo 1 do relatório; estruturação de épicos, features e user stories com origem e critérios de aceitação | Daniel |
+| 13/11/2026 | Claude | Organização da documentação do repositório (requisitos, matriz de rastreio, auditorias, reunião e progresso) a partir do Trello e do Notion | Daniel |
 
 ## Notas
 - Os testes à plataforma foram feitos manualmente pelos alunos. A IA foi usada para orientar os testes e redigir o registo das falhas.
