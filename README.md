@@ -1,4 +1,3 @@
-# clubops360-tfc
 # ClubOps360 – Plataforma de Gestão de Clubes e Modalidades
 
 Trabalho Final de Curso (TFC) 2026/2027 · Universidade Lusófona · DEISI
@@ -21,9 +20,9 @@ O objetivo deste TFC é **estabilizar e fazer crescer a plataforma**, para que c
 |---|---|
 | `docs/progresso/` | Relatórios de progresso semanais |
 | `docs/reunioes/` | Notas das reuniões com o orientador (data, temas, decisões, próximos passos) |
-| `docs/auditoria/` | Auditoria de falhas da plataforma (exportações do Notion) |
-| `docs/benchmarking/` | Análise de concorrentes |
-| `docs/requisitos/` | Requisitos por perfil, use cases, user stories, critérios de aceitação e matriz de rastreio |
+| `docs/auditoria/` | Sessões de testes à plataforma e resumo das falhas encontradas |
+| `docs/benchmarking/` | Análise da concorrência (inicial e final) |
+| `docs/requisitos/` | Épicos, features, user stories com critérios de aceitação e matriz de rastreio |
 | `docs/arquitetura/` | Modelo de dados, diagramas de arquitetura e mockups |
 | `docs/relatorios/` | Relatórios entregues em cada avaliação (PDF) |
 | `docs/uso-ia/` | Registo da utilização de IA generativa |
@@ -51,5 +50,5 @@ Lovable · Supabase · PostgreSQL · Stripe · IA
 
 ## Ferramentas de gestão
 
-- **Trello:** planeamento e registo de atividades
-- **Notion:** auditoria de falhas e documentação de apoio
+- **Trello:** épicos, features, user stories, planeamento e registo de atividades
+- **Notion:** auditoria de falhas (registo completo, com evidências) e registo semanal de atividades
