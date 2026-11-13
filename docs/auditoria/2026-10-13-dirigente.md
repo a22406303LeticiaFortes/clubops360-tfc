@@ -22,7 +22,7 @@ A descrição completa de cada falha (passos para reproduzir, o que acontece, o 
 
 | # | Falha | Tipo | Gravidade |
 |---|---|---|---|
-| 3 | Subscrição "Cancelado" continua com renovação e acesso total | Bug | Média |
+| 3 | Subscrição "Cancelado" continua com renovação e acesso total *(é a mesma falha da n.º 16 de 05/11 – no Notion fica só essa)* | Bug | Média |
 | 4 | Histórico da subscrição vazio | Bug | Baixa |
 | 5 | Impossível mudar para o plano Free | Bug | Média |
 | 6 | Lista de planos confusa (ciclo anual mostra preço mensal) | Usabilidade | Baixa |
