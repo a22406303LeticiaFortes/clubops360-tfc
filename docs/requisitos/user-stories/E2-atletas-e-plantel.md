@@ -2,7 +2,7 @@
 
 Ficha do atleta, encarregados de educação, consentimento parental e documentos.
 
-**4 features · 13 user stories**
+**4 features · 14 user stories**
 
 > Falhas marcadas com "(13/10)" foram encontradas nos testes de 13/10/2026.
 
@@ -34,6 +34,15 @@ Ficha do atleta, encarregados de educação, consentimento parental e documentos
 **Critérios de aceitação:**
 - A posição preferida aparece igual na ficha e nas estatísticas
 - Funciona em todas as modalidades (incluindo Futsal)
+
+### E2F1U4 – Como dirigente, quero descarregar um modelo de ficheiro para importar jogadores, para que a importação não falhe por o ficheiro estar no formato errado.
+
+**Origem:** Auditoria – Importação de jogadores sem modelo de ficheiro (Baixa)
+
+**Critérios de aceitação:**
+- Na importação de jogadores existe um botão para descarregar o modelo (Excel/CSV)
+- O modelo tem as colunas que a importação aceita, com um exemplo preenchido
+- Se o ficheiro tiver colunas em falta, a importação indica quais são
 
 ---
 
