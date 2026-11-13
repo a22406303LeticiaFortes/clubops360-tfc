@@ -2,7 +2,7 @@
 
 ## Feito
 - Testes à criação de clubes, ao Assistente IA, às subscrições, à faturação, à Stripe, à auditoria e ao suporte; registo de 43 falhas – ver docs/auditoria/2026-11-05-admin.md
-- Testes às permissões do perfil Jogador; registo de 3 falhas
+- Testes às permissões do perfil Jogador; registo de 2 falhas e 1 melhoria – ver docs/auditoria/2026-11-06-jogador.md
 - Versão final da análise da concorrência
 
 ## Dificuldades
