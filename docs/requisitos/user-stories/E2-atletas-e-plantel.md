@@ -50,7 +50,7 @@ Ficha do atleta, encarregados de educação, consentimento parental e documentos
 
 ### E2F2U1 – Como dirigente, quero convidar um encarregado por email e associá-lo ao seu educando, para que os pais tenham acesso à plataforma.
 
-**Origem:** Enunciado do TFC (perfis dirigentes, atletas, pais); Auditoria – Encarregados referidos como membros, mas sem papel (Média)
+**Origem:** Enunciado do TFC (perfis dirigentes, atletas, pais); Auditoria – Encarregados referidos como membros, mas sem papel na plataforma (Média)
 
 **Critérios de aceitação:**
 - Na ficha do atleta, o dirigente pode convidar um encarregado por email
@@ -82,7 +82,7 @@ Ficha do atleta, encarregados de educação, consentimento parental e documentos
 
 ### E2F2U5 – Como encarregado, quero atualizar os contactos de emergência do meu educando, para que o clube tenha sempre dados corretos.
 
-**Origem:** Auditoria – Ficha do jogador aceita dados impossíveis (Média)
+**Origem:** Auditoria – Ficha do jogador aceita dados físicos e data de nascimento impossíveis (Média)
 
 **Critérios de aceitação:**
 - O encarregado consegue editar os contactos de emergência do educando
@@ -90,7 +90,7 @@ Ficha do atleta, encarregados de educação, consentimento parental e documentos
 
 ### E2F2U6 – Como dirigente, quero ver que jogadores menores não têm encarregado associado, para que possa completar as fichas antes da época.
 
-**Origem:** Auditoria – Encarregados sem papel (Média); consentimento parental obrigatório para menores de 16
+**Origem:** Auditoria – Encarregados referidos como membros, mas sem papel na plataforma (Média); consentimento parental obrigatório para menores de 16
 
 **Critérios de aceitação:**
 - Existe uma lista ou filtro de jogadores menores sem encarregado
