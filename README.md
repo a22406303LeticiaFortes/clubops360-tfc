@@ -27,7 +27,7 @@ O objetivo deste TFC é **estabilizar e fazer crescer a plataforma**, para que c
 | `docs/arquitetura/` | Modelo de dados, diagramas de arquitetura e mockups |
 | `docs/relatorios/` | Relatórios entregues em cada avaliação (PDF) |
 | `docs/uso-ia/` | Registo da utilização de IA generativa |
-| `manual/` | Instruções de instalação e utilização da plataforma |
+| `docs/manual/` | Instruções de instalação e utilização da plataforma |
 | `src/` | Código fonte |
 | `tests/` | Testes automáticos e cenários de teste |
 
