@@ -2,7 +2,7 @@
 
 Criação e configuração do clube, épocas, escalões, equipas, papéis e entrada de novos membros.
 
-**6 features · 27 user stories**
+**6 features · 28 user stories**
 
 > Falhas marcadas com "(13/10)" foram encontradas nos testes de 13/10/2026.
 
@@ -257,3 +257,11 @@ Criação e configuração do clube, épocas, escalões, equipas, papéis e entr
 - Um utilizador sem clube aprovado consegue abrir o seu perfil
 - Vê o estado dos seus pedidos e pode pedir adesão a outro clube
 - Não tem acesso a dados de nenhum clube
+
+### E1F6U7 – Como atleta, quero indicar a modalidade e o escalão quando peço adesão ao clube, para que o dirigente saiba logo em que equipa me deve colocar.
+
+**Origem:** Melhoria – Pedido de adesão não pede modalidade nem escalão (Média)
+
+**Critérios de aceitação:**
+- O formulário de pedido de adesão pede a modalidade e o escalão (só os que o clube tem)
+- O dirigente vê a modalidade e o escalão pedidos na lista de pedidos e ao aprovar
