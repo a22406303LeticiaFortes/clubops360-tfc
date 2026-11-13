@@ -116,5 +116,17 @@ Nos clubes pequenos o trabalho é feito por voluntários com pouco tempo.
 - O mercado-alvo inicial é Portugal? Se sim, MB Way e Multibanco são prioridade.
 - Que concorrente devemos usar como referência principal: EMJOGO (líder em Portugal) ou ClubePT (mais completo na parte administrativa)?
 
+## Fontes
+
+| Plataforma | Fonte |
+|---|---|
+| ClubOps360 | https://clubops360.com |
+| Spond | https://www.spond.com |
+| 360Player | https://www.360player.com |
+| EMJOGO | https://emjogo.pt |
+| Adjunto | https://www.adjunto.pt |
+| Adjunto (diretório) | https://www.getapp.com/recreation-wellness-software/a/adjunto/ |
+| ClubePT | https://clube.pt |
+
 ## Ligação aos requisitos
 As funcionalidades em falta identificadas nesta análise deram origem a user stories (documentos do atleta, sócios e quotas, pagamentos, receitas e despesas, avisos) – ver a secção 2 da [matriz de rastreio](../requisitos/matriz-rastreio.md).
