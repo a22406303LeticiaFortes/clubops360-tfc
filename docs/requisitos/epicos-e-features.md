@@ -8,7 +8,7 @@
 | | E1F4 – Papéis dos utilizadores | 6 |
 | | E1F5 – Convites e importação de utilizadores | 4 |
 | | E1F6 – Pedidos de adesão ao clube | 6 |
-| **E2 – Atletas e Plantel** | E2F1 – Ficha do atleta e plantel | 3 |
+| **E2 – Atletas e Plantel** | E2F1 – Ficha do atleta e plantel | 4 |
 | | E2F2 – Encarregados de educação associados aos atletas (consulta e justificação de faltas) | 6 |
 | | E2F3 – Consentimento parental (menores de 16 anos) | 2 |
 | | E2F4 – Documentos do atleta (exame médico, seguro, licença da federação) com validades | 2 |
@@ -42,7 +42,7 @@
 | | E8F3 – Traduções completas (sem textos técnicos ou em inglês) | 1 |
 | | E8F4 – Ambiente de testes separado (incluindo Stripe em modo de teste) | 1 técnica |
 | | E8F5 – Atualização das listas sem precisar de refresh | 1 |
-| **Total** | **40 features** | **106 + 4 técnicas = 110** |
+| **Total** | **40 features** | **107 + 4 técnicas = 111** |
 
 ## Descrição dos épicos
 
