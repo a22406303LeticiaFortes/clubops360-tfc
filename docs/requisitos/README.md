@@ -34,6 +34,6 @@ Cada user story tem:
 
 | Épicos | Features | User stories | Técnicas |
 |---|---|---|---|
-| 8 | 40 | 107 | 4 |
+| 8 | 40 | 108 | 4 |
 
 O planeamento e o estado de cada user story estão no Trello.
