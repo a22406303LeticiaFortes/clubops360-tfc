@@ -8,8 +8,8 @@
 | 08/10/2026 | Claude | Apoio na organização do Notion e do Trello | Letícia |
 | 08/10/2026 | Claude | Apoio na exploração da plataforma e na redação das falhas da auditoria | Letícia |
 | 08/10/2026 | Claude | Pesquisa e organização da análise de concorrentes | Letícia |
-| 09/10/2026 | Claude | Cronograma, estrutura do repositório e README | Letícia |
 | 08/10/2026 | Claude | Leitura do email do orientador e planeamento dos primeiros passos (acesso, exploração, concorrência) | Daniel |
+| 09/10/2026 | Claude | Cronograma, estrutura do repositório e README | Letícia |
 | 13/10/2026 | Claude | Lista de testes para reproduzir a auditoria de 08/10 e redação das falhas novas | Daniel |
 | 23/10/2026 | Claude | Apoio aos testes da área de administração e redação das falhas no formato do Notion | Daniel |
 | 05/11/2026 | Claude | Apoio aos testes da administração (faturação, Stripe, auditoria, tickets) e redação das falhas | Daniel |
