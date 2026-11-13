@@ -65,4 +65,56 @@ Legenda: ✓ tem · ~ parcial · ✗ não tem · ? não confirmado
 |---|---|---|---|---|---|---|
 | Várias modalidades | ✓ | ✓ | ✓ | ✓ | ✗ (só futebol) | ✓ |
 | Treinos e exercícios | ✓ | ~ | ✓ | ✓ | ✓ | ✓ |
-| Análise de
+| Análise de vídeo | ? | ✗ | ✓ | ✗ | ✗ | ? |
+| Sócios e quotas | ✗ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Pagamentos ao clube | ✗ | ✓ | ✓ | ~ | ✓ | ✓ |
+| Acesso dos pais | ✗ | ✓ | ✓ | ✓ | ? | ✓ |
+| Documentos dos atletas | ✗ | ~ | ? | ~ | ~ | ✓ |
+| Comunicação com atletas e pais | ✗ | ✓ | ✓ | ~ | ~ | ✓ |
+| Assistente de IA | ✓ | ✗ | ✗ | ✗ | ~ | ✗ |
+| Plano grátis | ✓ | ✓ | ✗ | ✗ | ✗ | ? |
+
+## Inteligência artificial
+
+### O que o assistente do ClubOps360 faz bem (testes de 05/11)
+- **Valida os dados melhor do que os formulários:** na criação do clube apanhou o email incompleto, o telefone inválido e as datas da época trocadas, que o formulário manual aceitou.
+- **Respeita os limites de segurança:** recusou dar o plano Enterprise sem pagamento, recusou mostrar os dirigentes de outros clubes e recusou atribuir papéis.
+- **Organiza os pedidos de suporte:** a partir de duas mensagens criou um ticket com título, tipo, prioridade, passos para reproduzir, comportamento esperado e etiquetas.
+
+### O que ainda falha
+- Os escalões que propôs sobrepõem-se (Sub-20 2008–2009 e Seniores até 2009) e foram gravados assim.
+- O clube criado pelo assistente ficou sem nenhum membro, ao contrário do criado pelo formulário.
+- As ações feitas pelo assistente ficam na auditoria com o utilizador "00000000", e os tickets ficam sem autor visível.
+- As mensagens mostram a formatação em bruto (asteriscos e símbolos de tabela).
+- Pede menos dados do que o formulário (não pede NIF).
+
+### Onde a IA pode fazer a diferença para um clube pequeno
+Nos clubes pequenos o trabalho é feito por voluntários com pouco tempo.
+- Preparar treinos a partir da biblioteca de exercícios e do escalão.
+- Responder a perguntas dos pais (horários, convocatórias, quotas em atraso) sem passar pelo dirigente.
+- Resumir a situação do clube: quotas por pagar, documentos em falta, menores sem consentimento parental.
+- Configurar o clube no início de cada época (escalões, equipas, regras de calendário).
+
+## Análise SWOT do ClubOps360
+
+| Forças | Fraquezas |
+|---|---|
+| Único com assistente de IA confirmado e em funcionamento | Protótipo instável: cerca de 100 falhas registadas, incluindo presenças, plano de treino, faturação e bloqueio de utilizadores |
+| Muitas modalidades e multi-época de raiz | Sem sócios, quotas, pagamentos ao clube, finanças, documentos nem acesso dos pais |
+| Parte técnica rica: plano de treino detalhado (micro e mesociclo), mapa do plantel por posição, regras de calendário com geração automática de treinos, reservas de espaços | Comunicação por email não configurada |
+| Plano grátis e preços públicos | Faturação desligada da Stripe |
+
+| Oportunidades | Ameaças |
+|---|---|
+| Clubes pequenos querem uma só ferramenta: hoje teriam de juntar EMJOGO (módulos) ou Spond (só administrativo) a outra solução desportiva | EMJOGO já tem mais de 600 clubes e metade da I Liga: é difícil tirar clientes a quem já está instalado |
+| Os pagamentos por MB Way e Multibanco são esperados em Portugal; a Stripe já está integrada e pode ser alargada aos pagamentos de quotas | O ClubePT já cobre quase todo o objetivo "100% do clube" |
+| A IA pode poupar tempo aos voluntários (treinos, configuração da época, respostas aos pais) | Os concorrentes podem acrescentar IA rapidamente (o Adjunto já é associado a IA, mesmo que só em diretórios) |
+| Concorrentes sem preço público (360Player, ClubePT) afastam clubes pequenos que querem comparar preços rapidamente | Faturação em Portugal exige software certificado pela Autoridade Tributária; o ClubePT já emite faturas automáticas |
+
+## Perguntas para o orientador
+- A faturação deve ser feita pelo ClubOps360 (exige certificação da AT) ou através da Stripe ou de um software certificado?
+- O mercado-alvo inicial é Portugal? Se sim, MB Way e Multibanco são prioridade.
+- Que concorrente devemos usar como referência principal: EMJOGO (líder em Portugal) ou ClubePT (mais completo na parte administrativa)?
+
+## Ligação aos requisitos
+As funcionalidades em falta identificadas nesta análise deram origem a user stories (documentos do atleta, sócios e quotas, pagamentos, receitas e despesas, avisos) – ver a secção 2 da [matriz de rastreio](../requisitos/matriz-rastreio.md).
