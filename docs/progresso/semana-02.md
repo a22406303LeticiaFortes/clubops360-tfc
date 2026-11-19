@@ -2,7 +2,7 @@
 
 ## Feito
 - Análise inicial da plataforma, pedida pelo orientador para a 1.ª reunião
-- Reprodução da auditoria de 08/10 e registo de 17 falhas novas (perfil Dirigente) – ver docs/auditoria/2026-10-13-dirigente.md
+- Reprodução da auditoria de 08/10 e registo das falhas novas (perfil Dirigente) – ver docs/auditoria/2026-10-13-dirigente.md
 - Confirmação de que algumas falhas de 08/10 já não se reproduzem (convite de Dirigente, posições em Futebol)
 - Primeira proposta de organização dos requisitos em épicos
 
