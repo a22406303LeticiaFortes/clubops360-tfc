@@ -14,7 +14,7 @@
 | | E2F4 – Documentos do atleta (exame médico, seguro, licença da federação) com validades | 2 |
 | **E3 – Treinos** | E3F1 – Biblioteca de exercícios | 1 |
 | | E3F2 – Planos de treino reutilizáveis | 5 |
-| | E3F3 – Calendário e regras de geração de treinos | 4 |
+| | E3F3 – Calendário e regras de geração de treinos | 5 |
 | | E3F4 – Locais, espaços e reservas | 3 |
 | | E3F5 – Presenças (incluindo avisos e justificações de falta pelo encarregado) | 5 |
 | **E4 – Jogos e Competições** | E4F1 – Competições e calendário de jogos | 1 |
@@ -42,7 +42,7 @@
 | | E8F3 – Traduções completas (sem textos técnicos ou em inglês) | 1 |
 | | E8F4 – Ambiente de testes separado (incluindo Stripe em modo de teste) | 1 técnica |
 | | E8F5 – Atualização das listas sem precisar de refresh | 1 |
-| **Total** | **40 features** | **108 + 4 técnicas = 112** |
+| **Total** | **40 features** | **109 + 4 técnicas = 113** |
 
 ## Descrição dos épicos
 
