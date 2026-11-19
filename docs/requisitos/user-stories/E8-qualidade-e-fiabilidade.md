@@ -20,7 +20,7 @@ Validação de dados, mensagens de erro, traduções, ambiente de testes e atual
 
 ### E8F2U2 – Como utilizador, quero que a mensagem de sucesso só apareça quando a alteração foi mesmo guardada, para que saiba se o que fiz ficou registado.
 
-**Origem:** Auditoria – Mensagem de sucesso aparece mesmo quando a alteração é bloqueada (Média); Mensagem "Presença guardada" enganadora (Média) (13/10)
+**Origem:** Auditoria – Mensagem de sucesso aparece mesmo quando a alteração é bloqueada (Média)
 
 **Critérios de aceitação:**
 - A mensagem de sucesso só aparece depois de confirmar que a alteração foi guardada
@@ -59,7 +59,7 @@ Validação de dados, mensagens de erro, traduções, ambiente de testes e atual
 
 ### E8F5U1 – Como utilizador, quero que as listas e os indicadores se atualizem depois de uma alteração e ao mudar de clube, para que não precise de recarregar a página nem veja dados de outro clube.
 
-**Origem:** Auditoria – Listas não atualizam após alterações, só depois de atualizar a página (Baixa); Escalão novo não aparece sem refresh (Baixa) (13/10); Após mudar de clube, a página de Épocas mostra dados do clube anterior até atualizar (Média)
+**Origem:** Auditoria – Listas não atualizam após alterações, só depois de atualizar a página (Baixa); Após mudar de clube, a página de Épocas mostra dados do clube anterior até atualizar (Média)
 
 **Critérios de aceitação:**
 - Depois de criar, editar ou aprovar algo, a lista mostra a alteração sem recarregar a página
