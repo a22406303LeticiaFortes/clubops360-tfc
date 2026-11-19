@@ -2,7 +2,7 @@
 
 Exercícios, planos de treino, calendário, espaços e presenças.
 
-**5 features · 18 user stories**
+**5 features · 19 user stories**
 
 > Falhas marcadas com "(13/10)" foram encontradas nos testes de 13/10/2026.
 
@@ -10,14 +10,14 @@ Exercícios, planos de treino, calendário, espaços e presenças.
 
 ## E3F1 – Biblioteca de exercícios
 
-### E3F1U1 – Como treinador, quero criar exercícios na biblioteca do clube sem erros, para que os possa usar nos treinos.
+### E3F1U1 – Como dirigente, quero só ver a opção de criar exercícios se tiver permissão para isso, para que não receba erros técnicos ao tentar.
 
-**Origem:** Auditoria – Impossível criar exercícios na biblioteca (Alta) (13/10)
+**Origem:** Auditoria – Dirigente vê a opção de criar exercícios mas recebe um erro técnico (Baixa) (13/10)
 
 **Critérios de aceitação:**
-- É possível criar um exercício na biblioteca sem erro de permissões
-- O botão de exercícios pré-definidos carrega os exercícios sem erro
-- Os exercícios criados aparecem na biblioteca
+- Os botões "Novo Exercício" e "Defaults" só aparecem a quem tem permissão para criar exercícios
+- Se a criação for recusada, aparece uma mensagem clara em português, sem erros técnicos
+- Quem tem permissão (Admin, Treinador Principal) continua a conseguir criar exercícios
 
 ---
 
@@ -103,6 +103,14 @@ Exercícios, planos de treino, calendário, espaços e presenças.
 - Gerar treinos várias vezes para o mesmo período não cria treinos repetidos
 - Não aparecem dois treinos da mesma equipa à mesma hora
 
+### E3F3U5 – Como treinador, quero escolher a equipa no formulário de criar treino, para que perceba para que equipa estou a criar o treino.
+
+**Origem:** Auditoria – Criar Treino pede equipa mas o formulário não tem esse campo (Baixa)
+
+**Critérios de aceitação:**
+- O formulário "Novo Treino" tem um campo de equipa, ou vem preenchido com a equipa escolhida no menu lateral
+- O erro "Selecione um clube e equipa primeiro" deixa de aparecer quando a equipa está escolhida
+
 ---
 
 ## E3F4 – Locais, espaços e reservas
@@ -139,19 +147,20 @@ Exercícios, planos de treino, calendário, espaços e presenças.
 
 ### E3F5U1 – Como treinador, quero registar as presenças com o nome de cada jogador, para que saiba quem esteve em cada treino.
 
-**Origem:** Auditoria – Presenças mostram o jogador como "Sem nome" e não podem ser guardadas (Alta); Mensagem "Presença guardada" enganadora (Média) (13/10)
+**Origem:** Auditoria – Presenças mostram o jogador como "Sem nome" e não podem ser guardadas (Alta)
 
 **Critérios de aceitação:**
 - A lista de presenças mostra o nome de cada jogador
 - É possível guardar qualquer estado (presente, ausente, atraso) sem erro
 - Ao reabrir, as presenças guardadas aparecem como foram registadas
 
-### E3F5U2 – Como treinador, quero que os botões "Todos presentes" e "Todos ausentes" mostrem o estado real da lista, para que não me confunda.
+### E3F5U2 – Como treinador, quero que os botões das presenças mostrem de forma clara o estado de cada jogador, para que não me confunda.
 
 **Origem:** Auditoria – Botões de presenças incoerentes (Baixa) (13/10)
 
 **Critérios de aceitação:**
-- O botão realçado corresponde ao estado dos jogadores na lista
+- O botão para mudar o estado de cada jogador mostra o estado atual (presente, atrasado, ausente, justificado)
+- O botão realçado em "Todos presentes" / "Todos ausentes" corresponde ao estado dos jogadores na lista
 - Se os estados forem diferentes, nenhum dos dois botões fica realçado
 
 ### E3F5U3 – Como encarregado, quero avisar o treinador de que o meu educando vai faltar, para que ele se possa organizar com antecedência.
