@@ -6,7 +6,7 @@ Liga cada falha da auditoria (e cada requisito de outras fontes) à user story q
 
 | | Total |
 |---|---|
-| Falhas da auditoria ligadas a user stories | 117 (18 Alta · 44 Média · 55 Baixa) |
+| Falhas da auditoria ligadas a user stories | 116 (17 Alta · 43 Média · 56 Baixa) |
 | Melhorias propostas | 3 |
 | Requisitos de outras fontes (enunciado, concorrência, decisões do grupo) | ver secção 2 |
 | Falhas sem user story | 0 |
@@ -15,7 +15,7 @@ Liga cada falha da auditoria (e cada requisito de outras fontes) à user story q
 Notas:
 - Uma falha pode dar origem a mais do que uma user story, e uma user story pode resolver várias falhas.
 - *(13/10)* – falha encontrada nos testes de 13/10/2026.
-- A user story técnica **E8TU1** (validação na interface e na base de dados) cobre de forma transversal todas as falhas de validação de dados (ex.: n.º 1, 2, 11, 13, 35, 41, 48, 52–56, 81, 82 e 89).
+- A user story técnica **E8TU1** (validação na interface e na base de dados) cobre de forma transversal todas as falhas de validação de dados (ex.: n.º 1, 2, 11, 13, 35, 41, 48, 52, 54–57, 81, 82 e 89).
 - A descrição completa de cada falha (passos, evidências, o que devia acontecer) está no Notion ("Auditoria – Falhas") e em `docs/auditoria/`.
 
 ---
@@ -78,7 +78,7 @@ Notas:
 
 | # | Falha | Gravidade | User story |
 |---|---|---|---|
-| 43 | Impossível criar exercícios na biblioteca *(13/10)* | Alta | E3F1U1 |
+| 43 | Dirigente vê a opção de criar exercícios mas recebe um erro técnico *(13/10)* | Baixa | E3F1U1 |
 | 44 | Exercícios adicionados a um treino não ficam guardados | Alta | E3F2U1 |
 | 45 | Plano de Treino guardado não pode ser consultado nem editado | Alta | E3F2U2 |
 | 46 | Plano de Treino não usa a biblioteca de exercícios | Média | E3F2U3 |
@@ -88,13 +88,13 @@ Notas:
 | 50 | Editar um treino altera o horário em +1 hora | Alta | E3F3U1 |
 | 51 | Uma regra com horário inválido bloqueia a geração de todos os treinos | Alta | E3F3U2 |
 | 52 | Regras de calendário sem validação de horários, disponibilidade e duplicados | Média | E3F3U3 |
-| 53 | Disponibilidades e reservas aceitam horários impossíveis e duplicados | Baixa | E3F4U1 |
-| 54 | Reservas não respeitam a disponibilidade do espaço *(13/10)* | Média | E3F4U1 |
-| 55 | Local aceita email e telefone inválidos | Baixa | E3F4U2 |
-| 56 | Espaço aceita capacidade negativa ou zero | Baixa | E3F4U2 |
-| 57 | Gestão de slots de disponibilidade pouco prática | Baixa | E3F4U3 |
-| 58 | Presenças mostram o jogador como "Sem nome" e não podem ser guardadas | Alta | E3F5U1 |
-| 59 | Mensagem "Presença guardada" enganadora *(13/10)* | Média | E3F5U1, E8F2U2 |
+| 53 | Criar Treino pede equipa mas o formulário não tem esse campo | Baixa | E3F3U5 |
+| 54 | Disponibilidades e reservas aceitam horários impossíveis e duplicados | Baixa | E3F4U1 |
+| 55 | Reservas não respeitam a disponibilidade do espaço *(13/10)* | Média | E3F4U1 |
+| 56 | Local aceita email e telefone inválidos | Baixa | E3F4U2 |
+| 57 | Espaço aceita capacidade negativa ou zero | Baixa | E3F4U2 |
+| 58 | Gestão de slots de disponibilidade pouco prática | Baixa | E3F4U3 |
+| 59 | Presenças mostram o jogador como "Sem nome" e não podem ser guardadas | Alta | E3F5U1 |
 | 60 | Botões de presenças incoerentes *(13/10)* | Baixa | E3F5U2 |
 
 ### E4 – Jogos e Competições
@@ -141,8 +141,8 @@ Notas:
 | 88 | Faturas não têm PDF nem dados fiscais do cliente e do emitente | Média | E7F5U5 |
 | 89 | Cupões aceitam valores impossíveis e cupões expirados aparecem como "Ativo" | Média | E7F6U1 |
 | 90 | Utilizador bloqueado continua a conseguir fazer login e aceder à plataforma | Alta | E7F7U1 |
-| 91 | Papel de plataforma atribuído em duplicado ao mesmo utilizador | Média | E7F7U2 |
-| 92 | Página de Administração do clube acessível a qualquer membro através do link direto | Baixa | E7F7U3 |
+| 91 | Papel de plataforma atribuído em duplicado ao mesmo utilizador | Baixa | E7F7U2 |
+| 92 | Página de Administração do clube acessível a qualquer membro através do link direto | Média | E7F7U3 |
 | 93 | Jogador vê e pode preencher formulários de criação que não tem permissão para submeter | Baixa | E7F7U3 |
 | 94 | Jogador vê o mesmo menu que o Dirigente | Média | E7F7U3 |
 | 95 | Jogador vê todas as modalidades do clube no seletor | Média | E7F7U3 |
@@ -174,8 +174,7 @@ Notas:
 | 116 | Traduções incompletas na demo *(13/10)* | Baixa | E8F3U1 |
 | 117 | Texto em inglês na ficha do jogador *(13/10)* | Baixa | E8F3U1 |
 | 118 | Listas não atualizam após alterações, só depois de atualizar a página | Baixa | E8F5U1 |
-| 119 | Escalão novo não aparece sem refresh *(13/10)* | Baixa | E8F5U1 |
-| 120 | Após mudar de clube, a página de Épocas mostra dados do clube anterior até atualizar | Média | E8F5U1 |
+| 119 | Após mudar de clube, a página de Épocas mostra dados do clube anterior até atualizar | Média | E8F5U1 |
 
 ---
 
