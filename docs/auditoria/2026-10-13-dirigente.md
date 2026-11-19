@@ -6,6 +6,8 @@ A descrição completa de cada falha (passos para reproduzir, o que acontece, o 
 
 ## Falhas novas
 
+> Duas falhas registadas nesta sessão ("Escalão novo não aparece sem refresh" e "Mensagem 'Presença guardada' enganadora") não se reproduziram no re-teste de 19/11 e deixaram de contar. A falha dos exercícios foi reclassificada no mesmo re-teste. Ver [`2026-11-19-dirigente.md`](2026-11-19-dirigente.md).
+
 ### Site público e traduções
 
 | # | Falha | Tipo | Gravidade |
@@ -38,25 +40,23 @@ A descrição completa de cada falha (passos para reproduzir, o que acontece, o 
 
 | # | Falha | Tipo | Gravidade |
 |---|---|---|---|
-| 9 | Escalão novo não aparece sem refresh | Bug | Baixa |
-| 10 | Consentimento parental "Válido" com email inválido | Bug | Média |
-| 11 | Estatísticas com idade negativa | Bug | Baixa |
-| 12 | Texto em inglês na ficha do jogador | Usabilidade | Baixa |
+| 9 | Consentimento parental "Válido" com email inválido | Bug | Média |
+| 10 | Estatísticas com idade negativa | Bug | Baixa |
+| 11 | Texto em inglês na ficha do jogador | Usabilidade | Baixa |
 
 ### Locais e reservas
 
 | # | Falha | Tipo | Gravidade |
 |---|---|---|---|
-| 13 | Reservas não respeitam a disponibilidade do espaço | Bug | Média |
+| 12 | Reservas não respeitam a disponibilidade do espaço | Bug | Média |
 
 ### Exercícios, treinos e presenças
 
 | # | Falha | Tipo | Gravidade |
 |---|---|---|---|
-| 14 | Impossível criar exercícios na biblioteca (erro de permissões) | Bug | Alta |
-| 15 | "Volume (min)" do Plano de Treino não é calculado | Usabilidade | Baixa |
-| 16 | Mensagem "Presença guardada" enganadora | Bug | Média |
-| 17 | Botões de presenças incoerentes | Usabilidade | Baixa |
+| 13 | Dirigente vê a opção de criar exercícios mas recebe um erro técnico *(reclassificada a 19/11)* | Usabilidade | Baixa |
+| 14 | "Volume (min)" do Plano de Treino não é calculado | Usabilidade | Baixa |
+| 15 | Botões de presenças incoerentes | Usabilidade | Baixa |
 
 ## Reprodução da auditoria de 08/10
 
@@ -85,6 +85,5 @@ A descrição completa de cada falha (passos para reproduzir, o que acontece, o 
 
 ## Padrões identificados
 - Falta de validação de dados (consentimento, datas de nascimento, reservas)
-- Mensagens de sucesso que não correspondem ao que ficou guardado
 - Erros técnicos mostrados ao utilizador, em inglês
 - Algumas falhas de 08/10 já não se reproduzem: outras pessoas estão a alterar a plataforma
